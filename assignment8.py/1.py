@@ -1,4 +1,3 @@
-#1. Built-in Functions Practice
 '''
 Write a program that takes a list of numbers and uses built-in functions to print:
 
