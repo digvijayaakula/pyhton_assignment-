@@ -55,7 +55,7 @@ if s.isdigit():
 else:
  print("not only digits")
 
-#10.Write a program to check whether a string contains only digits using string methods.
+#10
 s=input("enter string:")
 if s.isdigit():
  print("only digits")

@@ -1,0 +1,5 @@
+numbers = input("Enter numbers: ").split()
+numbers = list(map(int, numbers))
+evens = list(filter(lambda x: x % 2 == 0, numbers))
+squares = list(map(lambda x: x * x, evens))
+print(squares)
