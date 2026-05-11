@@ -1,0 +1,100 @@
+'''
+class student:
+    def __init__(self, name, roll, marks):
+        self.name = name
+        self.roll = roll
+        self.marks = marks
+    def grade(self):
+        if self.marks >= 90:
+            return "a"
+        elif self.marks >= 75:
+            return "b"
+        elif self.marks >= 50:
+            return "c"
+        else:
+            return "fail"
+    def show(self):
+        print("name:", self.name, "roll:", self.roll, "grade:", self.grade())
+stu1 = student("sairam", 101, 85)
+stu2 = student("ravi", 102, 95)
+stu3 = student("anu", 103, 40)
+stu1.show()
+stu2.show()
+stu3.show()
+'''
+'''
+class bank:
+    def __init__(self, name, money):
+        self.name = name
+        self.money = money
+    def add(self, amt):
+        self.money = self.money + amt
+        print("balance:", self.money)
+    def take(self, amt):
+        if amt > self.money:
+            print("no money")
+        else:
+            self.money = self.money - amt
+            print("balance:", self.money)
+
+acc1 = bank("sairam", 1000)
+acc1.take(500)
+acc1.take(1500)
+
+acc2 = bank("ravi", 500)
+acc2.add(200)
+'''
+'''
+class product:
+    def __init__(self, name, price, num):
+        self.name = name
+        self.price = price
+        self.num = num
+    def total(self):
+        return self.price * self.num
+    def bill(self):
+        print("product:", self.name, "total:", self.total())
+
+item1 = product("laptop", 50000, 1)
+item2 = product("mobile", 20000, 2)
+item3 = product("pen", 10, 5)
+
+item1.bill()
+item2.bill()
+item3.bill()
+'''
+'''
+class emp:
+    def __init__(self, name, sal):
+        self.name = name
+        self.sal = sal
+    def newsal(self):
+        return self.sal + (self.sal * 0.10)
+    def show(self):
+        print("name:", self.name, "final salary:", self.newsal())
+
+emp1 = emp("sairam", 10000)
+emp2 = emp("ravi", 20000)
+emp3 = emp("anu", 5000)
+
+emp1.show()
+emp2.show()
+emp3.show()
+'''
+class car:
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+    def newprice(self):
+        return self.price - (self.price * 0.05)
+    def show(self):
+        print("brand:", self.brand, "model:", self.model, "price:", self.newprice())
+
+car1 = car("honda", "city", 1200000)
+car2 = car("mahindra", "scorpio", 1500000)
+car3 = car("kia", "seltos", 1400000)
+
+car1.show()
+car2.show()
+car3.show()
