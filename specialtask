@@ -1,3 +1,4 @@
+# 1. Program to Create a Student Management System
 '''
 class student:
     def __init__(self, name, roll, marks):
@@ -22,6 +23,7 @@ stu1.show()
 stu2.show()
 stu3.show()
 '''
+# 2. Program to Design a Bank Account System
 '''
 class bank:
     def __init__(self, name, money):
@@ -44,6 +46,7 @@ acc1.take(1500)
 acc2 = bank("ravi", 500)
 acc2.add(200)
 '''
+# 3. Program to Build a Product Billing System
 '''
 class product:
     def __init__(self, name, price, num):
@@ -63,6 +66,7 @@ item1.bill()
 item2.bill()
 item3.bill()
 '''
+# 4. Program to Create an Employee Salary System
 '''
 class emp:
     def __init__(self, name, sal):
@@ -81,6 +85,8 @@ emp1.show()
 emp2.show()
 emp3.show()
 '''
+# 5. Program to Create a Car Information System
+'''
 class car:
     def __init__(self, brand, model, price):
         self.brand = brand
@@ -98,3 +104,4 @@ car3 = car("kia", "seltos", 1400000)
 car1.show()
 car2.show()
 car3.show()
+'''
